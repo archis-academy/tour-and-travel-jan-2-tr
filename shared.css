@@ -1,0 +1,42 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;  
+color: white;
+width: 1900px;
+height: 900px;
+display: flex;
+}
+
+p{
+  color: black;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 58.506px;
+  font-style: normal;
+  font-weight: 70px;
+  line-height: 67.908px;
+  z-index: 999;
+}
+
+.img{
+  width: 1920px;
+  height: 976px;
+  flex-shrink: 0;
+}
+
+.nav li{
+  color: black;
+  font-size: 80px;
+  max-width: fit-content;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 60px;
+
+}
+
+.mydiv{
+
+}
