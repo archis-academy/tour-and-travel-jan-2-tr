@@ -172,6 +172,7 @@ footer ul {
   position: absolute;
   top: 30px;
   right: 0px;
+  cursor: pointer;
 }
 
 .footer-join-our p {
