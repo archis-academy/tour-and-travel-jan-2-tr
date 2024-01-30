@@ -76,3 +76,51 @@
     margin-top: 20px;
   }
 }
+
+/* <!-- Mücahit Favourite resorts --> */
+
+.resort-book {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resort-book-title h4 {
+  color: rgba(223, 105, 81, 1);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resort-book-title h1 {
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+}
+
+.resort-desc {
+  margin-top: 20px;
+}
+
+.resort-desc-element {
+  display: inline-block;
+  line-height: 18px;
+  max-width: 340px;
+  margin-left: 20px;
+  color: rgba(94, 98, 130, 1);
+}
+
+.resort-desc-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.resort-desc-element p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.resort-book-right img {
+  width: 800px;
+}
