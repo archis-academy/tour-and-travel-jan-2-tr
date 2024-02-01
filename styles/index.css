@@ -10,3 +10,35 @@
 .partner-logo{
     height: 50px; 
 }
+/* Yüsra liberty banner */
+.liberty-banner,
+.liberty-title {
+  display: flex;
+  flex-direction: column;
+}
+.liberty-banner {
+  border: 5px solid red;
+    background-image: url("../images/liberty-statue-img.png");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 200px;
+  }
+  .liberty-title-container {
+    border: 5px dotted green;
+    transform: translateX(-300px);
+  }
+.liberty-title {
+  font-family: "Volkhov", serif;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    white-space: nowrap;
+  }
+  .liberty-line {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    
+
+  }
