@@ -81,7 +81,7 @@
   margin: 0 auto;
   max-width: 1483px;
   height: 751px;
-  border: 5px solid red;
+  position: relative;
 }
 
 .europe-sighseeing-tours-text {
@@ -91,7 +91,6 @@
 }
 
 .europe-sighseeing-tours-text h5 {
-  border: 1px solid blue;
   color: #df6951;
   font-family: "Poppins";
   font-size: 18px;
@@ -103,7 +102,6 @@
 }
 
 .europe-sighseeing-tours-text h1 {
-  border: 1px solid green;
   color: #181e4b;
   font-family: "Volkhov";
   font-size: 50px;
@@ -113,7 +111,6 @@
 }
 
 .europe-sighseeing-tours-text p {
-  border: 1px solid brown;
   color: var(--black, #000);
   font-family: "Poppins";
   font-size: 16px;
@@ -153,24 +150,24 @@
   justify-content: space-between;
 }
 
-.europe-sighseeing-tours-bottom-images {
-  border: 1px solid darkmagenta;
+.europe-sighseeing-tours-small-images {
   display: flex;
   gap: 55px;
+  /* position: relative; */
 }
 
 .image-eyfel {
   position: absolute;
   z-index: -1;
-  top: 0;
-  right: 285px;
+  bottom: 0;
+  right: 0;
 }
 
-.europe-sighseeing-tours-bottom-images img {
+.europe-sighseeing-tours-bottom-images {
   position: relative;
 }
 
-.europe-sighseeing-tours-bottom-images h5 {
+.europe-sighseeing-tours-bottom-images span {
   text-align: center;
   color: #fff;
   font-family: "Poppins";
@@ -185,6 +182,6 @@
   background: linear-gradient(100deg, #ff7255 8.93%, #ba4e38 100%);
 
   position: absolute;
-  bottom: 585px;
-  right: 500px;
+  right: 10px;
+  top: 10px;
 }
