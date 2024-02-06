@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 .liberty-banner {
-  border: 5px solid red;
+  
     background-image: url("../images/liberty-statue-img.png");
     background-size: cover;
     background-position: center;
@@ -25,8 +25,9 @@
     padding: 200px;
   }
   .liberty-title-container {
-    border: 5px dotted green;
+    
     transform: translateX(-300px);
+    position: relative;
   }
 .liberty-title {
   font-family: "Volkhov", serif;
@@ -38,7 +39,89 @@
   .liberty-line {
     display: flex;
     position: absolute;
-    left: 300px;
+    right: -75px;
     
-
+}
+  /*testimational*/  
+  
+  .homepage-testimonial{
+     border: 5px solid red;
+     display: flex;
+     position: relative;
+     height: 500px;
+     justify-content: center;
+     background-color: #efebea;
+     
+     
   }
+  .img-hat {
+    position: absolute;
+   
+    bottom: 0px;
+    left: 0px;
+    
+  }
+ .img-photo {
+    position: absolute;
+    top: -80px;
+    right: 300px;
+  }
+  .img-seashell {
+    position: absolute;
+    top: -75px;
+    left: 300px;
+  } 
+  
+.testimonials-title-container{
+  border: 5px dotted darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  
+
+}
+
+
+.testimonials-subtitle{
+  font-family: 'Poppins', sans-serif;
+  color: #DF6951;
+  
+  
+
+}
+.testimonials-title{
+  font-family: 'Volkhov', sans-serif;
+  color: #181E4B;
+  font-weight: 700;
+
+}
+
+.testimonial-text {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 400;
+  background-color: white;
+}
+
+.name{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 700;
+  position: relative;
+ 
+}
+.name::after{
+  display: flex;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color:#DF6951;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+ 
+}
