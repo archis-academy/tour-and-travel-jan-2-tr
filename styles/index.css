@@ -158,7 +158,7 @@
   flex: 1;
 }
 
-.photo {
+.tour-package-card-photo {
   position: relative;
   margin-top: 50px;
   margin-bottom: 40px;
@@ -176,20 +176,20 @@
   left: 20px;
 }
 
-.date {
+.tour-package-card-date {
   display: flex;
   gap: 60px;
   align-items: center;
   color: rgba(125, 125, 125, 1);
 }
 
-.date div {
+.tour-package-card-date div {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
-.city {
+.tour-package-card-city {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
@@ -197,33 +197,33 @@
   align-items: center;
 }
 
-.country {
+.tour-package-card-country {
   display: flex;
   align-items: center;
   gap: 6px;
   color: rgba(125, 125, 125, 1);
 }
 
-.cost {
+.tour-package-card-cost {
   display: flex;
   gap: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.cost p {
+.tour-package-card-cost p {
   color: rgba(223, 105, 81, 1);
   font-weight: 500;
   font-size: 30px;
 }
 
-.cost s {
+.tour-package-card-cost s {
   font-weight: 500;
   font-size: 26px;
   color: rgba(125, 125, 125, 1);
 }
 
-.btn {
+.tour-package-card-btn {
   display: inline-block;
   width: 130px;
   background-color: rgba(223, 105, 81, 1);
