@@ -1,3 +1,17 @@
+/* Yüsra partners section*/
+.partners-logos {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 40px 0px;
+}
+.partner-logo {
+  height: 50px;
+}
+
+/* Mücahit best services */
+
 * {
   margin: 0;
   padding: 0;
