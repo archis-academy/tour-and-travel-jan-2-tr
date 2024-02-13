@@ -6,6 +6,7 @@
   gap: 100px;
   padding: 40px 0px;
 }
+
 .partner-logo {
   height: 50px;
 }
@@ -139,6 +140,42 @@
   width: 800px;
 }
 
+/* Yüsra liberty banner */
+.liberty-banner,
+.liberty-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.liberty-banner {
+
+  background-image: url("../images/liberty-statue-img.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.liberty-title-container {
+
+  transform: translateX(-300px);
+  position: relative;
+}
+
+.liberty-title {
+  font-family: "Volkhov", serif;
+  position: relative;
+  color: white;
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+.liberty-line {
+  display: flex;
+  position: absolute;
+  right: -75px;
+
+}
 /* Mücahit Trending tour packages */
 
 .tour-packages {
