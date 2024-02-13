@@ -1,33 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.best-services {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.services-title h4 {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 18px;
+}
+
+.services-title h1 {
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card {
+  width: 200px;
+  /* height: 240px; */
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
+}
+
+.service-card img {
+  width: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.service-card h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.service-card p {
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+#flights {
+  box-shadow: rgba(189, 189, 189, 0.2) 0px 60px 40px -7px;
+  border-radius: 36px;
+  position: relative;
+  background-color: white;
+}
+
+.orange-box {
+  position: absolute;
+  left: -20px;
+  bottom: -40px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  .services-cards {
+    flex-wrap: wrap;
+  }
+
+  .service-card {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* <!-- Mücahit Favourite resorts --> */
+
+.resort-book {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resort-book-title h4 {
+  color: rgba(223, 105, 81, 1);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resort-book-title h1 {
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+}
+
+.resort-desc {
+  margin-top: 20px;
+}
+
+.resort-desc-element {
+  display: inline-block;
+  line-height: 18px;
+  max-width: 340px;
+  margin-left: 20px;
+  color: rgba(94, 98, 130, 1);
+}
+
+.resort-desc-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.resort-desc-element p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.resort-book-right img {
+  width: 800px;
+}
 /* Yüsra liberty banner */
 .liberty-banner,
 .liberty-title {
   display: flex;
   flex-direction: column;
 }
+
 .liberty-banner {
-  
-    background-image: url("../images/liberty-statue-img.png");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    padding: 200px;
-  }
-  .liberty-title-container {
-    
-    transform: translateX(-300px);
-    position: relative;
-  }
+
+  background-image: url("../images/liberty-statue-img.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.liberty-title-container {
+
+  transform: translateX(-300px);
+  position: relative;
+}
+
 .liberty-title {
   font-family: "Volkhov", serif;
-    position: relative;
-    color: white;
-    font-size: 50px;
-    white-space: nowrap;
-  }
-  .liberty-line {
-    display: flex;
-    position: absolute;
-    right: -75px;
-    
+  position: relative;
+  color: white;
+  font-size: 50px;
+  white-space: nowrap;
 }
-  
+
+.liberty-line {
+  display: flex;
+  position: absolute;
+  right: -75px;
+
+}
