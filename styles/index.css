@@ -1,3 +1,18 @@
+/* Yüsra partners section*/
+.partners-logos {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 40px 0px;
+}
+
+.partner-logo {
+  height: 50px;
+}
+
+/* Mücahit best services */
+
 * {
   margin: 0;
   padding: 0;
@@ -124,6 +139,7 @@
 .resort-book-right img {
   width: 800px;
 }
+
 /* Yüsra liberty banner */
 .liberty-banner,
 .liberty-title {
@@ -159,4 +175,113 @@
   position: absolute;
   right: -75px;
 
+}
+/* Mücahit Trending tour packages */
+
+.tour-packages {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tour-packages-title {
+  text-align: center;
+}
+
+.tour-packages-title h1 {
+  font-size: 50px;
+  line-height: 70px;
+  font-family: "Volkhov", serif;
+}
+
+.tour-packages-title h4 {
+  color: rgba(223, 105, 81, 1);
+  font-family: "Poppins", sans-serif;
+}
+
+.tour-package-cards {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  gap: 80px;
+}
+
+.tour-package-card {
+  flex: 1;
+}
+
+.tour-package-card-photo {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.city-image {
+  width: 100%;
+  height: 100%;
+}
+
+.country-flag {
+  position: absolute;
+  bottom: -70px;
+  left: 20px;
+}
+
+.tour-package-card-date {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-date div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tour-package-card-city {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+
+.tour-package-card-country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-cost {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tour-package-card-cost p {
+  color: rgba(223, 105, 81, 1);
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.tour-package-card-cost s {
+  font-weight: 500;
+  font-size: 26px;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-btn {
+  display: inline-block;
+  width: 130px;
+  background-color: rgba(223, 105, 81, 1);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
 }
