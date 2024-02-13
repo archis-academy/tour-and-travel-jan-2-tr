@@ -1,10 +1,10 @@
 /*Yüsra-homepage-testimonial*/  
   
 .homepage-testimonial{
-  border: 5px solid red;
+  
   display: flex;
   position: relative;
-  height: 500px;
+  height: 700px;
   justify-content: center;
   
   margin-top: 80px;
@@ -29,20 +29,20 @@
 } 
 
 .testimonials-title-container{
-border: 5px dotted darkblue;
-display: flex;
-flex-direction: column;
+
+display: block;
+position: relative;
 justify-content: center;
 align-items: center;
 text-align: center;
-margin: 50px;
+margin: 100px;
 
 
 }
 .testimonials-subtitle{
 font-family: 'Poppins', sans-serif;
 color: #DF6951;
-
+margin-bottom: 10px;
 
 
 }
@@ -50,14 +50,37 @@ color: #DF6951;
 font-family: 'Volkhov', sans-serif;
 color: #181E4B;
 font-weight: 700;
+size: 50px;
 
 }
 
-.testimonial-text {
+.testimonial-text-container{
+  display: flex;
+}
+
+.testimonial-text{
+  position: relative;
+  
+}
+.testimonial-quotes{
+  position: absolute;
+  left: -30px;
+  top: -40px;
+
+}
+
+.text-part {
 font-family: 'Poppins', sans-serif;
 color: black;
 font-weight: 400;
 background-color: white;
+}
+
+.quotes-1{
+  position: absolute;
+  width: 12px;
+  bottom: 20px;
+  right: 150px;
 }
 
 .name{
@@ -67,15 +90,15 @@ font-weight: 700;
 position: relative;
 
 }
-.name::after{
+.testimonials-title-container::after{
 display: flex;
 content: "";
-width: 50px;
+width: 45px;
 height: 2px;
 background-color:#DF6951;
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
-margin-top: 10px;
+bottom: 0px;
 
 }
