@@ -1,68 +1,361 @@
-/*Yüsra-homepage-testimonial*/  
-  
-.homepage-testimonial{
-  
+/* Yüsra partners section*/
+.partners-logos {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 40px 0px;
+}
+
+.partner-logo {
+  height: 50px;
+}
+
+/* Mücahit best services */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.best-services {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.services-title h4 {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 18px;
+}
+
+.services-title h1 {
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card {
+  width: 200px;
+  /* height: 240px; */
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
+}
+
+.service-card img {
+  width: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.service-card h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.service-card p {
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+#flights {
+  box-shadow: rgba(189, 189, 189, 0.2) 0px 60px 40px -7px;
+  border-radius: 36px;
+  position: relative;
+  background-color: white;
+}
+
+.orange-box {
+  position: absolute;
+  left: -20px;
+  bottom: -40px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  .services-cards {
+    flex-wrap: wrap;
+  }
+
+  .service-card {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* <!-- Mücahit Favourite resorts --> */
+
+.resort-book {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resort-book-title h4 {
+  color: rgba(223, 105, 81, 1);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resort-book-title h1 {
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+}
+
+.resort-desc {
+  margin-top: 20px;
+}
+
+.resort-desc-element {
+  display: inline-block;
+  line-height: 18px;
+  max-width: 340px;
+  margin-left: 20px;
+  color: rgba(94, 98, 130, 1);
+}
+
+.resort-desc-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.resort-desc-element p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.resort-book-right img {
+  width: 800px;
+}
+
+/* Yüsra liberty banner */
+.liberty-banner,
+.liberty-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.liberty-banner {
+
+  background-image: url("../images/liberty-statue-img.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.liberty-title-container {
+
+  transform: translateX(-300px);
+  position: relative;
+}
+
+.liberty-title {
+  font-family: "Volkhov", serif;
+  position: relative;
+  color: white;
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+.liberty-line {
+  display: flex;
+  position: absolute;
+  right: -75px;
+
+}
+/* Mücahit Trending tour packages */
+
+.tour-packages {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tour-packages-title {
+  text-align: center;
+}
+
+.tour-packages-title h1 {
+  font-size: 50px;
+  line-height: 70px;
+  font-family: "Volkhov", serif;
+}
+
+.tour-packages-title h4 {
+  color: rgba(223, 105, 81, 1);
+  font-family: "Poppins", sans-serif;
+}
+
+.tour-package-cards {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  gap: 80px;
+}
+
+.tour-package-card {
+  flex: 1;
+}
+
+.tour-package-card-photo {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.city-image {
+  width: 100%;
+  height: 100%;
+}
+
+.country-flag {
+  position: absolute;
+  bottom: -70px;
+  left: 20px;
+}
+
+.tour-package-card-date {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-date div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tour-package-card-city {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+
+.tour-package-card-country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-cost {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tour-package-card-cost p {
+  color: rgba(223, 105, 81, 1);
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.tour-package-card-cost s {
+  font-weight: 500;
+  font-size: 26px;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-btn {
+  display: inline-block;
+  width: 130px;
+  background-color: rgba(223, 105, 81, 1);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/*Yüsra-homepage-testimonial*/
+
+.homepage-testimonial {
+
   display: flex;
   position: relative;
   height: 700px;
   justify-content: center;
-  
+
   margin-top: 80px;
-  
+
 }
+
 .img-hat {
- position: absolute;
+  position: absolute;
 
- bottom: 0px;
- left: 0px;
- 
+  bottom: 0px;
+  left: 0px;
+
 }
+
 .img-photo {
- position: absolute;
- top: -80px;
- right: 300px;
+  position: absolute;
+  top: -80px;
+  right: 300px;
 }
+
 .img-seashell {
- position: absolute;
- top: -75px;
- left: 300px;
-} 
+  position: absolute;
+  top: -75px;
+  left: 300px;
+}
 
-.testimonials-title-container{
+.testimonials-title-container {
 
-display: block;
-position: relative;
-justify-content: center;
-align-items: center;
-text-align: center;
-margin: 100px;
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px;
 
 
 }
-.testimonials-subtitle{
-font-family: 'Poppins', sans-serif;
-color: #DF6951;
-margin-bottom: 10px;
+
+.testimonials-subtitle {
+  font-family: 'Poppins', sans-serif;
+  color: #DF6951;
+  margin-bottom: 10px;
 
 
 }
-.testimonials-title{
-font-family: 'Volkhov', sans-serif;
-color: #181E4B;
-font-weight: 700;
-size: 50px;
+
+.testimonials-title {
+  font-family: 'Volkhov', sans-serif;
+  color: #181E4B;
+  font-weight: 700;
+  size: 50px;
 
 }
 
-.testimonial-text-container{
+.testimonial-text-container {
   display: flex;
 }
 
-.testimonial-text{
+.testimonial-text {
   position: relative;
-  
+
 }
-.testimonial-quotes{
+
+.testimonial-quotes {
   position: absolute;
   left: -30px;
   top: -40px;
@@ -70,35 +363,36 @@ size: 50px;
 }
 
 .text-part {
-font-family: 'Poppins', sans-serif;
-color: black;
-font-weight: 400;
-background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 400;
+  background-color: white;
 }
 
-.quotes-1{
+.quotes-1 {
   position: absolute;
   width: 12px;
   bottom: 20px;
   right: 150px;
 }
 
-.name{
-font-family: 'Poppins', sans-serif;
-color: black;
-font-weight: 700;
-position: relative;
+.name {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: 700;
+  position: relative;
 
 }
-.testimonials-title-container::after{
-display: flex;
-content: "";
-width: 45px;
-height: 2px;
-background-color:#DF6951;
-position: absolute;
-left: 50%;
-transform: translateX(-50%);
-bottom: 0px;
+
+.testimonials-title-container::after {
+  display: flex;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #DF6951;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
 
 }
