@@ -6,6 +6,7 @@
   gap: 100px;
   padding: 40px 0px;
 }
+
 .partner-logo {
   height: 50px;
 }
@@ -139,6 +140,40 @@
   width: 800px;
 }
 
+/* Yüsra liberty banner */
+.liberty-banner,
+.liberty-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.liberty-banner {
+  background-image: url("../images/liberty-statue-img.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.liberty-title-container {
+  transform: translateX(-300px);
+  position: relative;
+}
+
+.liberty-title {
+  font-family: "Volkhov", serif;
+  position: relative;
+  color: white;
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+.liberty-line {
+  display: flex;
+  position: absolute;
+  right: -75px;
+}
+
 /* Mücahit Explore section */
 
 .explore-nature-cities {
@@ -233,7 +268,6 @@
   position: absolute;
   right: -50px;
 }
-
 /* Mücahit Trending tour packages */
 
 .tour-packages {
@@ -342,4 +376,102 @@
   margin-top: 50px;
   text-align: center;
   text-decoration: none;
+}
+/*Yüsra-homepage-testimonial*/
+
+.homepage-testimonial {
+  display: flex;
+  position: relative;
+  height: 700px;
+  justify-content: center;
+
+  margin-top: 80px;
+}
+
+.img-hat {
+  position: absolute;
+
+  bottom: 0px;
+  left: 0px;
+}
+
+.img-photo {
+  position: absolute;
+  top: -80px;
+  right: 300px;
+}
+
+.img-seashell {
+  position: absolute;
+  top: -75px;
+  left: 300px;
+}
+
+.testimonials-title-container {
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px;
+}
+
+.testimonials-subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  margin-bottom: 10px;
+}
+
+.testimonials-title {
+  font-family: "Volkhov", sans-serif;
+  color: #181e4b;
+  font-weight: 700;
+  size: 50px;
+}
+
+.testimonial-text-container {
+  display: flex;
+}
+
+.testimonial-text {
+  position: relative;
+}
+
+.testimonial-quotes {
+  position: absolute;
+  left: -30px;
+  top: -40px;
+}
+
+.text-part {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 400;
+  background-color: white;
+}
+
+.quotes-1 {
+  position: absolute;
+  width: 12px;
+  bottom: 20px;
+  right: 150px;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 700;
+  position: relative;
+}
+
+.testimonials-title-container::after {
+  display: flex;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #df6951;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
 }
