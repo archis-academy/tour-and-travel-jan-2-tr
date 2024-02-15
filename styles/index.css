@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,7 +30,7 @@
 
 .service-card {
   width: 200px;
-  /* height: 240px;
+  height: 240px;
   margin-top: 40px;
   padding: 20px 20px 40px 20px;
 }
@@ -59,7 +59,7 @@
   background-color: white;
 }
 
-.orange-box{
+.orange-box {
   position: absolute;
   left: -20px;
   bottom: -40px;
@@ -77,7 +77,7 @@
   }
 }
 
-/* <!-- Mücahit Favourite resorts --> 
+/* Mücahit Favourite resorts */
 
 .resort-book {
   display: flex;
@@ -124,31 +124,35 @@
 .resort-book-right img {
   width: 800px;
 }
-/* Yüsra partners section
-.partners-logos{
+/* Yüsra partners section */
+.partners-logos {
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
   gap: 100px;
   padding: 40px 0px;
-  
 }
-.partner-logo{
-  height: 50px; 
-} */
+.partner-logo {
+  height: 50px;
+}
 
+/* Umut Homepage Hero Section */
 .homepage-header {
   background-image: url("../images/homepage-background.png");
-  max-width: 1920px;
   height: 976px;
   background-repeat: no-repeat;
   position: relative;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-homepage-header {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .top-nav-bar {
-  /* border: 3px solid green; */
   max-width: 1274px;
-  margin: 0 auto 0 320px;
   padding-top: 63px;
   display: flex;
   justify-content: space-between;
@@ -174,9 +178,7 @@
 }
 
 .homepage-header-text {
-  /* border: 2px solid red; */
   margin-top: 100px;
-  margin-left: 320px;
   max-width: 844px;
 }
 .homepage-header-text h1 {
@@ -188,6 +190,9 @@
 .user-avatar {
   display: flex;
   gap: 10px;
+}
+.user-avatar-images {
+  margin-left: -25px;
 }
 .user-avatar p {
   font-family: "Poppins";
