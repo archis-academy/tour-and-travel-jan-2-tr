@@ -1,3 +1,18 @@
+/* Yüsra partners section*/
+.partners-logos {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 40px 0px;
+}
+
+.partner-logo {
+  height: 50px;
+}
+
+/* Mücahit best services */
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +45,7 @@
 
 .service-card {
   width: 200px;
-  height: 240px;
+  /* height: 240px; */
   margin-top: 40px;
   padding: 20px 20px 40px 20px;
 }
@@ -77,7 +92,7 @@
   }
 }
 
-/* Mücahit Favourite resorts */
+/* <!-- Mücahit Favourite resorts --> */
 
 .resort-book {
   display: flex;
@@ -124,16 +139,246 @@
 .resort-book-right img {
   width: 800px;
 }
-/* Yüsra partners section */
-.partners-logos {
-  background-color: #f7f7f7;
+
+/* Yüsra liberty banner */
+.liberty-banner,
+.liberty-title {
   display: flex;
-  justify-content: center;
-  gap: 100px;
-  padding: 40px 0px;
+  flex-direction: column;
 }
-.partner-logo {
-  height: 50px;
+
+.liberty-banner {
+  background-image: url("../images/liberty-statue-img.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.liberty-title-container {
+  transform: translateX(-300px);
+  position: relative;
+}
+
+.liberty-title {
+  font-family: "Volkhov", serif;
+  position: relative;
+  color: white;
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+.liberty-line {
+  display: flex;
+  position: absolute;
+  right: -75px;
+}
+/* Mücahit Trending tour packages */
+
+.tour-packages {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tour-packages-title {
+  text-align: center;
+}
+
+.tour-packages-title h1 {
+  font-size: 50px;
+  line-height: 70px;
+  font-family: "Volkhov", serif;
+}
+
+.tour-packages-title h4 {
+  color: rgba(223, 105, 81, 1);
+  font-family: "Poppins", sans-serif;
+}
+
+.tour-package-cards {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  gap: 80px;
+}
+
+.tour-package-card {
+  flex: 1;
+}
+
+.tour-package-card-photo {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.city-image {
+  width: 100%;
+  height: 100%;
+}
+
+.country-flag {
+  position: absolute;
+  bottom: -70px;
+  left: 20px;
+}
+
+.tour-package-card-date {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-date div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tour-package-card-city {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+
+.tour-package-card-country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-cost {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tour-package-card-cost p {
+  color: rgba(223, 105, 81, 1);
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.tour-package-card-cost s {
+  font-weight: 500;
+  font-size: 26px;
+  color: rgba(125, 125, 125, 1);
+}
+
+.tour-package-card-btn {
+  display: inline-block;
+  width: 130px;
+  background-color: rgba(223, 105, 81, 1);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/*Yüsra-homepage-testimonial*/
+
+.homepage-testimonial {
+  display: flex;
+  position: relative;
+  height: 700px;
+  justify-content: center;
+
+  margin-top: 80px;
+}
+
+.img-hat {
+  position: absolute;
+
+  bottom: 0px;
+  left: 0px;
+}
+
+.img-photo {
+  position: absolute;
+  top: -80px;
+  right: 300px;
+}
+
+.img-seashell {
+  position: absolute;
+  top: -75px;
+  left: 300px;
+}
+
+.testimonials-title-container {
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px;
+}
+
+.testimonials-subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  margin-bottom: 10px;
+}
+
+.testimonials-title {
+  font-family: "Volkhov", sans-serif;
+  color: #181e4b;
+  font-weight: 700;
+  size: 50px;
+}
+
+.testimonial-text-container {
+  display: flex;
+}
+
+.testimonial-text {
+  position: relative;
+}
+
+.testimonial-quotes {
+  position: absolute;
+  left: -30px;
+  top: -40px;
+}
+
+.text-part {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 400;
+  background-color: white;
+}
+
+.quotes-1 {
+  position: absolute;
+  width: 12px;
+  bottom: 20px;
+  right: 150px;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 700;
+  position: relative;
+}
+
+.testimonials-title-container::after {
+  display: flex;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background-color: #df6951;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
 }
 
 /* Umut Homepage Hero Section */
