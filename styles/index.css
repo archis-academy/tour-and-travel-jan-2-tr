@@ -817,3 +817,55 @@ footer h3 {
   bottom: -210px;
   left: 0;
 }
+
+.about-sightseeing-tours {
+  max-width: 1300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.about-sightseeing-tours-title h4 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: rgba(223, 105, 81, 1);
+}
+
+.about-sightseeing-tours-title h2 {
+  font-family: "Volkhov";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(24, 30, 75, 1);
+}
+
+.about-sightseeing-tours-title p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.about-sightseeing-tours-title a {
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  padding: 15px 25px;
+  background: rgba(223, 105, 81, 1);
+  border-radius: 10px;
+}
