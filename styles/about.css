@@ -116,3 +116,139 @@
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
+
+/* Umut footer */
+footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.footer-travel-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-travel-logo p {
+  color: #757095;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  letter-spacing: -0.32px;
+}
+
+.footer-social-media ul li {
+  float: left;
+  margin-top: 16px;
+}
+
+.footer-social-media ul li a {
+  padding: 0px 5px;
+}
+
+footer h3 {
+  color: #181433;
+  font-family: "Manrope";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 114.286% */
+}
+
+.footer-lists {
+  color: #181433;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.footer-email {
+  display: flex;
+  margin-top: 30px;
+}
+.footer-email > input {
+  padding: 10px 50px 10px 0px;
+  flex-shrink: 0;
+  background: #eef;
+  border: none;
+}
+.footer-email ::placeholder {
+  color: #181433;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
+  opacity: 0.2;
+  padding: 15px;
+}
+
+.footer-email button {
+  /* width: 149px;
+  height: 52px; */
+  padding: 10px 20px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #df6951;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
+  top: 30px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.footer-join-our p {
+  color: #181433;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+.footer-line {
+  width: 1200px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #e5e5ea;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.divider-footer-line > p {
+  color: #181433;
+  text-align: center;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
+  margin: 40px 0;
+}
+.footer-image {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0px;
+}
