@@ -91,6 +91,57 @@
     margin-top: 20px;
   }
 }
+/* Yüsra Homepage Honeymoon Specials*/
+.honeymoon-container {
+  display: flex;
+  max-width: 1400px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.honeymoon-left {
+  display: flex;
+  position: relative;
+}
+.plus-bg {
+  position: absolute;
+  height: 165px;
+  bottom: -30px;
+  right: -30px;
+  z-index: -1;
+}
+
+.honeymoon-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #df6951;
+}
+.honeymoon-title {
+  font-family: "Volkhov", sans-serif;
+  font-weight: 700;
+  color: #181e4b;
+  line-height: 70px;
+  font-size: 50px;
+}
+.honeymoon-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+.honeymoon-button {
+  display: flex;
+  background-color: rgba(223, 105, 81, 1);
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 180px;
+  padding: 10px;
+  margin-top: 50px;
+
+  align-items: center;
+  font-size: 17px;
+}
 
 /* <!-- Mücahit Favourite resorts --> */
 
