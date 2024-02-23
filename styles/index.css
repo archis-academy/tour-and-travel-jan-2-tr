@@ -4,6 +4,7 @@
   max-width: 1400px;
   justify-content: space-between;
   margin: 0 auto;
+  align-items: center;
 }
 
 .honeymoon-left {
@@ -18,11 +19,6 @@
   z-index: -1;
 }
 
-.honeymoon-right {
-  justify-content: center;
-  align-items: center;
-  margin: auto 0;
-}
 .honeymoon-subtitle {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
